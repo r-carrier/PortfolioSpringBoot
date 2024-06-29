@@ -63,6 +63,11 @@
 			<artifactId>httpcore5</artifactId>
 			<version>5.2.4</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
