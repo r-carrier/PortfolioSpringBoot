@@ -19,8 +19,8 @@ public class WeatherForecast {
     private String locationName;
     private Double temperatureMin;
     private Double temperatureMax;
-    private Integer cloudCover;
-    private Integer precipProbability;
+    private Integer cloudCoverAvg;
+    private Integer precipProbabilityAvg;
     private Integer rainIntensityAvg;
     private Integer weatherCodeMin;
     private Integer weatherCodeMax;
@@ -66,20 +66,20 @@ public class WeatherForecast {
         this.temperatureMax = temperatureMax;
     }
 
-    public Integer getCloudCover() {
-        return cloudCover;
+    public Integer getCloudCoverAvg() {
+        return cloudCoverAvg;
     }
 
-    public void setCloudCover(Integer cloudCover) {
-        this.cloudCover = cloudCover;
+    public void setCloudCoverAvg(Integer cloudCoverAvg) {
+        this.cloudCoverAvg = cloudCoverAvg;
     }
 
-    public Integer getPrecipProbability() {
-        return precipProbability;
+    public Integer getPrecipProbabilityAvg() {
+        return precipProbabilityAvg;
     }
 
-    public void setPrecipProbability(Integer precipProbability) {
-        this.precipProbability = precipProbability;
+    public void setPrecipProbabilityAvg(Integer precipProbabilityAvg) {
+        this.precipProbabilityAvg = precipProbabilityAvg;
     }
 
     public Integer getRainIntensityAvg() {
