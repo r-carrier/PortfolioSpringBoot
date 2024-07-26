@@ -8,8 +8,6 @@ import jakarta.persistence.Table;
 
 import java.time.LocalDateTime;
 
-// @Entity is a JPA annotation to make this object ready for storage in a JPA-based data store
-// id, name and description are attributes of our Item domain object
 @Entity
 @Table(name = "t_realtime_weather", schema = "fw1")
 public class RealtimeWeather {
